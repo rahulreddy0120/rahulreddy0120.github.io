@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Reddy - Senior Cloud Security & Infrastructure Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">RR</div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Rahul Reddy</h1>
+                <h2 class="title">
+                    <span class="typing-text"></span>
+                </h2>
+                <p class="description">
+                    Senior Cloud Security & Infrastructure Engineer focused on Zero Trust architecture, policy-as-code,
+                    and DevSecOps automation. I embed security into CI/CD pipelines, enforce governance with reusable workflows,
+                    and drive FinOps optimization across 500+ AWS accounts.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/rahulreddy0120" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rahul-7947/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:rahulreddy0120@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>I'm a Senior Cloud Security & Infrastructure Engineer focused on building secure, governed, and cost-efficient AWS environments at scale. I implement Zero Trust architectures using IAM least-privilege, SCPs, GuardDuty, WAF, AWS Inspector, and Network Firewall — enforcing policy-as-code through Terraform and CI/CD guardrails so security is automated, not optional.</p>
+                    <p>My work spans DevSecOps pipeline design with reusable GitHub Actions workflows (Docker builds, Terraform plan/apply, SAST/DAST scanning, tagging compliance), infrastructure automation with CloudFormation and Terraform, FinOps optimization, and proactive cloud hygiene through automated EOL detection, vulnerability scanning, and Trusted Advisor-driven resource cleanup.</p>
+                    <div class="highlight-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">AWS Accounts Secured</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Teams on Reusable CI/CD</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">85%</div>
+                            <div class="stat-label">Tagging Compliance</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">$1.75M+</div>
+                            <div class="stat-label">Annual Cost Savings</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Certifications</h2>
+            
+            <div class="skills-certs-wrapper">
+                <!-- Skills Column -->
+                <div class="skills-column">
+                    <h3 class="subsection-title">Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>Security & Zero Trust</h3>
+                            <div class="skill-items">
+                                <span>IAM & SCPs</span>
+                                <span>GuardDuty</span>
+                                <span>WAF</span>
+                                <span>AWS Inspector</span>
+                                <span>AWS Config</span>
+                                <span>Security Hub</span>
+                                <span>Network Firewall</span>
+                                <span>KMS</span>
+                                <span>Secrets Manager</span>
+                                <span>SAST/DAST</span>
+                                <span>NIST 800-53</span>
+                                <span>CIS Benchmarks</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <h3>DevSecOps & CI/CD</h3>
+                            <div class="skill-items">
+                                <span>GitHub Actions</span>
+                                <span>Reusable Workflows</span>
+                                <span>Terraform</span>
+                                <span>Terragrunt</span>
+                                <span>CloudFormation</span>
+                                <span>Policy-as-Code</span>
+                                <span>Jenkins</span>
+                                <span>Helm</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h3>Cloud & Infrastructure</h3>
+                            <div class="skill-items">
+                                <span>AWS</span>
+                                <span>EC2</span>
+                                <span>ECS/EKS</span>
+                                <span>S3</span>
+                                <span>RDS</span>
+                                <span>Lambda</span>
+                                <span>VPC</span>
+                                <span>Route 53</span>
+                                <span>CloudFront</span>
+                                <span>EventBridge</span>
+                                <span>Trusted Advisor</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="skill-icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <h3>FinOps & Cost Governance</h3>
+                            <div class="skill-items">
+                                <span>Cost Optimization</span>
+                                <span>RI/Savings Plans</span>
+                                <span>Tagging Governance</span>
+                                <span>S3 Lifecycle Mgmt</span>
+                                <span>Rightsizing</span>
+                                <span>Resource Cleanup</span>
+                                <span>Trusted Advisor</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="skill-icon">
+                                <i class="fas fa-cubes"></i>
+                            </div>
+                            <h3>Containers & Orchestration</h3>
+                            <div class="skill-items">
+                                <span>Docker</span>
+                                <span>ECS/Fargate</span>
+                                <span>ECR</span>
+                                <span>Kubernetes</span>
+                                <span>EKS</span>
+                                <span>Helm</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                            <div class="skill-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <h3>Monitoring & Automation</h3>
+                            <div class="skill-items">
+                                <span>CloudWatch</span>
+                                <span>Datadog</span>
+                                <span>Prometheus</span>
+                                <span>Grafana</span>
+                                <span>Splunk</span>
+                                <span>Python</span>
+                                <span>Boto3</span>
+                                <span>Bash</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Column -->
+                <div class="certs-column">
+                    <h3 class="subsection-title">Certifications</h3>
+                    <div class="cert-list">
+                        <div class="cert-card-compact" data-aos="fade-up" data-aos-delay="100">
+                            <div class="cert-icon-compact">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>AWS Solutions Architect</h4>
+                                <p>Associate Level</p>
+                            </div>
+                        </div>
+                        <div class="cert-card-compact" data-aos="fade-up" data-aos-delay="200">
+                            <div class="cert-icon-compact">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>AWS Security Specialty</h4>
+                                <p>Specialty Certification</p>
+                            </div>
+                        </div>
+                        <div class="cert-card-compact" data-aos="fade-up" data-aos-delay="300">
+                            <div class="cert-icon-compact">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>HashiCorp Terraform Associate</h4>
+                                <p>002 Certification</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="subsection-title" style="margin-top: 40px;">Core Strengths</h3>
+                    <div class="strengths-list">
+                        <div class="strength-item" data-aos="fade-up">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Zero Trust Architecture & Policy-as-Code</span>
+                        </div>
+                        <div class="strength-item" data-aos="fade-up">
+                            <i class="fas fa-check-circle"></i>
+                            <span>DevSecOps Pipeline Design & Automation</span>
+                        </div>
+                        <div class="strength-item" data-aos="fade-up">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Cloud Security & IAM Hardening</span>
+                        </div>
+                        <div class="strength-item" data-aos="fade-up">
+                            <i class="fas fa-check-circle"></i>
+                            <span>FinOps & Cost Governance at Scale</span>
+                        </div>
+                        <div class="strength-item" data-aos="fade-up">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Infrastructure Automation & Compliance</span>
+                        </div>
+                        <div class="strength-item" data-aos="fade-up">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Vulnerability Management & EOL Remediation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications" style="display: none;">
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="50">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/prom-alerting-rules-framework" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Prometheus Alerting Framework</h3>
+                    <p>Production-ready SLO burn rate alerting rules, Alertmanager routing with PagerDuty/Slack, recording rules, and Grafana dashboards as code for multi-cluster Kubernetes environments.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-bell"></i> SLO-driven alerts</span>
+                        <span><i class="fas fa-chart-bar"></i> Multi-cluster</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>Alertmanager</span>
+                        <span>PromQL</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/es-cluster-health-monitor" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Elasticsearch Cluster Monitor</h3>
+                    <p>Automated monitoring for ES cluster health, shard allocation, JVM heap, ILM status, and indexing latency across multiple clusters. Alerts via Slack and SNS.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-heartbeat"></i> Cluster health</span>
+                        <span><i class="fas fa-database"></i> Shard monitoring</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Elasticsearch</span>
+                        <span>Docker</span>
+                        <span>AWS SNS</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/observability-stack-toolkit" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Observability Pipeline Toolkit</h3>
+                    <p>Terraform modules for deploying Prometheus + Thanos, OpenSearch with hot-warm-cold, CloudWatch exporter, and Alertmanager on AWS EKS. Full observability stack as code.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-cubes"></i> Modular IaC</span>
+                        <span><i class="fas fa-cloud"></i> AWS/EKS native</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Terraform</span>
+                        <span>Prometheus</span>
+                        <span>Thanos</span>
+                        <span>OpenSearch</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/reserved-instance-optimizer" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>AWS Reserved Instance Analyzer</h3>
+                    <p>Automated RI/SP utilization tracking and purchase recommendations with team notifications. Monitors coverage metrics and alerts on optimization opportunities.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-dollar-sign"></i> $400K+ saved</span>
+                        <span><i class="fas fa-chart-bar"></i> 90% RI coverage</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Boto3</span>
+                        <span>YAML</span>
+                        <span>AWS Cost Explorer</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/ec2-rightsizing-tool" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>EC2 Rightsizing Analyzer</h3>
+                    <p>Cross-account EC2 analysis using CloudWatch metrics to detect overprovisioned resources. Deployed on ECS with Terraform for scalable, automated infrastructure monitoring.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-dollar-sign"></i> $400K+ saved</span>
+                        <span><i class="fas fa-server"></i> 500+ accounts</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Terraform</span>
+                        <span>ECS</span>
+                        <span>CloudWatch</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/cloud-cost-anomaly-detector" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Anomaly Detection Pipeline</h3>
+                    <p>Automated anomaly detection with statistical analysis, Slack/Email alerting, and historical trend tracking. Catches infrastructure and cost anomalies before they escalate.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-bell"></i> Real-time alerts</span>
+                        <span><i class="fas fa-shield-alt"></i> Proactive detection</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Docker</span>
+                        <span>AWS SES</span>
+                        <span>Slack API</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/s3-lifecycle-manager" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>S3 Lifecycle Optimizer</h3>
+                    <p>Automated S3 bucket audit with lifecycle policy enforcement and Intelligent-Tiering recommendations. Reduces storage costs through automated data lifecycle management.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-dollar-sign"></i> $750K+ saved</span>
+                        <span><i class="fas fa-database"></i> 3000+ buckets</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Boto3</span>
+                        <span>S3</span>
+                        <span>CloudWatch</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/unused-cloud-resources-cleanup" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Unused Resources Finder</h3>
+                    <p>Multi-region scanner for orphaned infrastructure — unattached EBS volumes, idle EIPs, stale snapshots, and unused NAT Gateways. Generates actionable cleanup reports.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-dollar-sign"></i> $200K+ saved</span>
+                        <span><i class="fas fa-search"></i> Multi-region scan</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Boto3</span>
+                        <span>CSV Reports</span>
+                        <span>Multi-Region</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/trusted-advisor-audit-tool" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Security & Compliance Scanner</h3>
+                    <p>Lambda-based scanner for deprecated runtimes, security vulnerabilities, and compliance drift. Automated SES notifications keep teams ahead of technical debt.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-shield-alt"></i> 60% debt reduction</span>
+                        <span><i class="fas fa-check-circle"></i> Compliance</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Lambda</span>
+                        <span>Python</span>
+                        <span>EventBridge</span>
+                        <span>SES</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rahulreddy0120/ec2-golden-ami-pipeline" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Golden AMI Pipeline (STIG/CIS)</h3>
+                    <p>Automated pipeline for security-hardened, STIG-compliant AMIs using AWS Image Builder. Supports AL2023, Ubuntu, Windows, and EKS — enforcing security baselines at the image level.</p>
+                    <div class="project-impact">
+                        <span><i class="fas fa-lock"></i> STIG/CIS compliant</span>
+                        <span><i class="fas fa-cogs"></i> Multi-OS support</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Terraform</span>
+                        <span>Image Builder</span>
+                        <span>DISA STIG</span>
+                        <span>OpenSCAP</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+                <p class="contact-text">
+                    I'm always interested in discussing cloud security, DevSecOps, Zero Trust architecture, FinOps,
+                    or potential collaboration opportunities. Feel free to reach out!
+                </p>
+                
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                
+                <div class="contact-social">
+                    <a href="https://github.com/rahulreddy0120" target="_blank" class="social-btn" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rahul-7947/" target="_blank" class="social-btn" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:rahulreddy0120@gmail.com" class="social-btn" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Built by Rahul Reddy</p>
+            <p class="footer-year">© 2026</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
